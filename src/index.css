@@ -1,13 +1,33 @@
-body {
+/* :root {
+  --red: hsl(0, 36%, 70%);
+  --soft-red: hsl(0, 93%, 68%);
+  --grayish-red: hsl(0, 6%, 24%);
+  --linear-gradient1: Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+  --linear-gradient2: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+} */
+
+@import url("./css/colors/colors.css");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 16px;
+}
+
+body {
+  max-width: 1440px;
+  height: 100vh;
+  background-image: url(./assests/bg-pattern-desktop.svg);
+  background-position: left 90%;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+
+@media (min-width: 160em) {
 }

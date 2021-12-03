@@ -1,0 +1,70 @@
+.Figure {
+  display: block;
+  width: 100%;
+}
+
+.MainImage {
+  display: block;
+  width: 100%;
+  height: 11rem;
+  background-image: url(../../assests/hero-mobile.jpg);
+  background-size: 100% 100%;
+}
+
+@media (min-width: 20em) {
+  .MainImage {
+    height: 13rem;
+  }
+}
+
+@media (min-width: 22em) {
+  .MainImage {
+    height: 15rem;
+  }
+}
+
+@media (min-width: 23em) {
+  .MainImage {
+    height: 15rem;
+  }
+}
+
+@media (min-width: 25em) {
+  .MainImage {
+    height: 17rem;
+  }
+}
+
+@media (min-width: 33em) {
+  .MainImage {
+    height: 22rem;
+  }
+}
+
+@media (min-width: 40em) and (max-height: 45em) {
+  .Figure {
+    height: 100vh;
+    background-color: green;
+    grid-row: 1 / -1;
+    grid-column: 2 / -1;
+    width: 100%;
+    overflow: hidden;
+  }
+  .MainImage {
+    background-image: url(../../assests/hero-desktop.jpg);
+    height: 100%;
+  }
+}
+
+@media (min-width: 33em) {
+  .MainImage {
+    height: 31rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .MainImage {
+    height: 100%;
+  }
+}
+

@@ -1,0 +1,54 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem;
+  text-align: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+@media (min-width: 22em) {
+  .Wrapper {
+    padding: 2.75rem;
+  }
+}
+
+@media (min-width: 23em) {
+  .Wrapper {
+    padding: 2.75rem 2.75rem 2.25rem 2.75rem;
+  }
+}
+
+@media (min-width: 40em) and (max-height: 45em) {
+  .Wrapper {
+    padding: 2.75rem 4rem 2.25rem 4rem;
+    text-align: left;
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+}
+
+@media (min-width: 64em) {
+  .Wrapper {
+    padding: 2.75rem 7rem 2.25rem 7rem;
+    text-align: left;
+    gap: 0.5rem;
+    margin: 5rem 0;
+  }
+}
+@media (min-width: 80em) {
+  .Wrapper {
+    padding: 2.75rem 13rem 2.25rem 10rem;
+    text-align: left;
+    gap: 0.5rem;
+    margin: 5rem 0;
+  }
+}
+@media (min-width: 90em) {
+  .Wrapper {
+    padding: 2.75rem 13rem 2.25rem 10rem;
+    text-align: left;
+    gap: 1rem;
+    margin-top: 7rem;
+  }
+}

@@ -1,0 +1,114 @@
+@import url("../colors/colors.css");
+
+.MainHeader {
+  color: var(--grayish-red);
+  font-weight: var(--bold);
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+.MainHeader span {
+  font-weight: var(--thin);
+  color: var(--red);
+}
+
+.MainPara {
+  font-size: 0.65rem;
+  color: var(--red);
+  line-height: 1.7;
+  font-weight: var(--medium);
+}
+
+@media (min-width: 20em) {
+  .MainHeader {
+    font-size: 2.25rem;
+  }
+  .MainPara {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 22em) {
+  .MainHeader {
+    font-size: 2.5rem;
+  }
+  .MainPara {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 25em) {
+  .MainHeader {
+    font-size: 2.75rem;
+  }
+  .MainPara {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 25.87em) {
+  .MainPara {
+    font-size: 0.92rem;
+  }
+}
+
+@media (min-width: 33em) {
+  .MainHeader {
+    font-size: 4rem;
+  }
+  .MainPara {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 40em) and (max-height: 45em) {
+  .MainHeader {
+    font-size: 2rem;
+  }
+
+  .MainPara {
+    font-size: 0.6rem;
+    color: var(--red);
+    line-height: 1.7;
+    font-weight: var(--medium);
+  }
+}
+
+@media (min-width: 64em) {
+  .MainHeader {
+    font-size: 3.75rem;
+  }
+
+  .MainPara {
+    font-size: 0.9rem;
+    color: var(--red);
+    line-height: 1.7;
+    font-weight: var(--medium);
+  }
+}
+
+@media (min-width: 85em) {
+  .MainHeader {
+    font-size: 4rem;
+  }
+
+  .MainPara {
+    font-size: 1.05rem;
+    color: var(--red);
+    line-height: 1.7;
+    font-weight: var(--medium);
+  }
+}
+
+@media (min-width: 90em) {
+  .MainHeader {
+    font-size: 5rem;
+  }
+
+  .MainPara {
+    font-size: 1.15rem;
+    color: var(--red);
+    line-height: 1.7;
+    font-weight: var(--medium);
+  }
+}

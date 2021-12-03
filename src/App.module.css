@@ -1,0 +1,12 @@
+.GridLayout {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+@media (min-width: 40em) and (max-height: 45em) {
+  .GridLayout {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+}

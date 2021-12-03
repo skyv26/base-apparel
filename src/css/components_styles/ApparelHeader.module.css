@@ -1,0 +1,90 @@
+.Header {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.Figure {
+  display: block;
+}
+
+.Logo {
+  display: block;
+  width: 5.25rem;
+}
+
+@media (min-width: 20em) {
+  .Header {
+    padding: 1.6rem;
+  }
+
+  .Figure {
+    display: block;
+  }
+
+  .Logo {
+    width: 5.75rem;
+  }
+}
+
+@media (min-width: 22em) {
+  .Header {
+    padding: 2rem;
+  }
+
+  .Logo {
+    width: 6.75rem;
+  }
+}
+
+@media (min-width: 25em) {
+  .Header {
+    padding: 2.25rem;
+  }
+
+  .Logo {
+    width: 7.25rem;
+  }
+}
+
+@media (min-width: 40em) and (max-height: 45em) {
+  .Header {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: 2rem 4rem;
+    height: 2rem;
+  }
+  .Logo {
+    width: 5rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .Header {
+    padding: 4rem 7rem;
+  }
+
+  .Logo {
+    width: 8rem;
+  }
+}
+
+@media (min-width: 80em) {
+  .Header {
+    padding: 4rem 10rem;
+  }
+
+  .Logo {
+    width: 9rem;
+  }
+}
+
+@media (min-width: 85em) {
+  .Header {
+    padding: 4rem 10rem;
+  }
+
+  .Logo {
+    width: 9rem;
+  }
+}

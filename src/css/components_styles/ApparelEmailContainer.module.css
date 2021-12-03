@@ -1,0 +1,329 @@
+@import url("../colors/colors.css");
+
+.EmailContainer {
+  width: 100%;
+  height: 2.25rem;
+  position: relative;
+  /* background-color: tomato; */
+}
+
+.Input {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: none;
+  padding: 0 1rem;
+  outline: 1px solid var(--red);
+}
+
+.Input::placeholder {
+  color: var(--red);
+  font-size: 0.7rem;
+  font-weight: var(--thin);
+}
+
+.EmailContainer button {
+  position: absolute;
+  width: 3.25rem;
+  border: none;
+  height: 100%;
+  right: 0;
+  border-radius: 20px;
+  background: var(--linear-gradient2);
+  box-shadow: 0 15px 15px 0 hsla(0, 93%, 68%, 0.274);
+  cursor: pointer;
+  transform: scale(1.1);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.EmailContainer button:hover {
+  background: hsl(0, 100%, 88%);
+}
+
+.EmailContainer button:active {
+  transform: scale(1);
+}
+
+.MSG {
+  color: var(--soft-red);
+  font-size: 0.75rem;
+  font-weight: var(--bold);
+  align-self: flex-start;
+  margin-left: 1rem;
+  bottom: -1.65rem;
+  position: absolute;
+}
+
+.SuccessMsg {
+  color: rgb(0, 161, 0);
+  visibility: hidden;
+  animation: showHide 2s;
+}
+
+@keyframes showHide {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    visibility: visible;
+    opacity: 1;
+    transition: ease-in-out 2s;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.EmailErrorSVG {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  transform: translate(-25%, -50%);
+}
+
+.Danger {
+  outline-width: 2px;
+  outline-color: var(--soft-red);
+}
+
+@media (min-width: 22em) {
+  .EmailContainer {
+    height: 2.75rem;
+    margin-top: 1rem;
+  }
+
+  .Input {
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+
+  .Input::placeholder {
+    font-size: 0.9rem;
+  }
+
+  .EmailContainer button {
+    width: 3.75rem;
+    border-radius: 20px;
+  }
+
+  .EmailContainer button:hover {
+    background: hsl(0, 100%, 88%);
+  }
+
+  .EmailContainer button:active {
+    transform: scale(1);
+  }
+
+  .MSG {
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    margin-top: -0.25rem;
+  }
+
+  .EmailErrorSVG {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}
+
+@media (min-width: 25em) {
+  .Input {
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+
+  .Input::placeholder {
+    font-size: 0.9rem;
+  }
+
+  .EmailContainer button {
+    width: 4.25rem;
+  }
+
+  .EmailContainer button:hover {
+    background: hsl(0, 100%, 88%);
+  }
+
+  .EmailContainer button:active {
+    transform: scale(1);
+  }
+
+  .MSG {
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    margin-top: -0.25rem;
+  }
+
+  .EmailErrorSVG {
+    width: 1.35rem;
+    height: 1.35rem;
+  }
+}
+
+@media (min-width: 33em) {
+  .Input {
+    border-radius: 20px;
+    font-size: 1rem;
+  }
+
+  .Input::placeholder {
+    font-size: 1rem;
+  }
+
+  .EmailContainer button {
+    width: 4.25rem;
+  }
+
+  .MSG {
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    margin-top: -0.25rem;
+  }
+
+  .EmailErrorSVG {
+    width: 1.45rem;
+    right: 17%;
+    height: 1.45rem;
+  }
+}
+
+@media (min-width: 40em) and (max-height: 45em) {
+  .EmailContainer {
+    height: 1.6rem;
+    margin-top: 0.6rem;
+  }
+
+  .Input {
+    border-radius: 20px;
+    font-size: 0.6rem;
+  }
+
+  .Input::placeholder {
+    font-size: 0.6rem;
+  }
+
+  .EmailContainer button {
+    align-items: center;
+    width: 3rem;
+    top: -1px;
+  }
+
+  .EmailContainer button img {
+    display: inline-block;
+    transform: scale(0.6);
+  }
+  .EmailContainer button:hover {
+    background: hsl(0, 100%, 88%);
+  }
+
+  .EmailContainer button:active {
+    transform: scale(1);
+  }
+
+  .MSG {
+    font-size: 0.6rem;
+    margin-top: 0.1rem;
+  }
+
+  .EmailErrorSVG {
+    width: 0.75rem;
+    right: 20%;
+    height: 0.75rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .EmailContainer {
+    height: 2.75rem;
+    margin-top: 1rem;
+  }
+
+  .Input {
+    border-radius: 25px;
+    font-size: 0.85rem;
+  }
+
+  .Input::placeholder {
+    font-size: 0.85rem;
+  }
+
+  .EmailContainer button {
+    align-items: center;
+    width: 5rem;
+    border-radius: 25px;
+    top: -1px;
+  }
+
+  .EmailContainer button img {
+    display: inline-block;
+    transform: scale(0.9);
+  }
+  .EmailContainer button:hover {
+    background: hsl(0, 100%, 88%);
+  }
+
+  .EmailContainer button:active {
+    transform: scale(1);
+  }
+
+  .MSG {
+    font-size: 0.9rem;
+    margin-top: 0.1rem;
+  }
+
+  .EmailErrorSVG {
+    width: 1.35rem;
+    right: 22%;
+    height: 1.35rem;
+  }
+}
+
+@media (min-width: 85em) {
+  .EmailContainer {
+    height: 3.25rem;
+    margin-top: 2rem;
+  }
+
+  .Input {
+    border-radius: 25px;
+    font-size: 0.9rem;
+    align-items: center;
+  }
+
+  .Input::placeholder {
+    font-size: 0.9rem;
+  }
+
+  .EmailContainer button {
+    align-items: center;
+    width: 5rem;
+    border-radius: 25px;
+    top: -1px;
+  }
+
+  .EmailContainer button img {
+    display: inline-block;
+    transform: scale(0.9);
+  }
+  .EmailContainer button:hover {
+    background: hsl(0, 100%, 88%);
+  }
+
+  .EmailContainer button:active {
+    transform: scale(1);
+  }
+
+  .MSG {
+    font-size: 0.9rem;
+    margin-top: 0.1rem;
+  }
+
+  .EmailErrorSVG {
+    width: 1.35rem;
+    right: 22%;
+    height: 1.35rem;
+  }
+}
