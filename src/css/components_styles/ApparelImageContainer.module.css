@@ -44,7 +44,6 @@
 @media (min-width: 40em) and (max-height: 45em) {
   .Figure {
     height: 100vh;
-    background-color: green;
     grid-row: 1 / -1;
     grid-column: 2 / -1;
     width: 100%;
