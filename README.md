@@ -121,7 +121,7 @@ For more information on the importance of a professional README for your reposit
   <img src="./src/assests/screenShot.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Base Apparel</b></h3>
 
 </div>
 
@@ -151,11 +151,11 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Base Apparel <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**Base apparel** is a vanilla js project by adding some interactions and make it fully responsive.
 
 ## 🛠 Built With <a name="built-with"></a>
 
