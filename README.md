@@ -1,6 +1,3 @@
-### Screenshot
-
-![](./src/assests/screenShot.jpg)
 
 ### Links
 
