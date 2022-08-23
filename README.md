@@ -46,9 +46,6 @@ Your app is ready to be deployed!
 
 ### `yarn eject`
 
-### Continued development
-
-ReactJS, Redux, Backend Development using Python Django
 
 ## Author
 
