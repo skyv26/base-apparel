@@ -8,11 +8,7 @@
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
+
 - [React](https://reactjs.org/) - JS library
 - [Styled Components](https://styled-components.com/) - For styles
 
@@ -83,9 +79,11 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Semantic HTML5 markup**
+- **CSS custom properties**
+- **Flexbox**
+- **CSS Grid**
+- **Mobile-first workflow**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
