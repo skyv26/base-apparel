@@ -16,10 +16,6 @@
 - [React](https://reactjs.org/) - JS library
 - [Styled Components](https://styled-components.com/) - For styles
 
-### What I learned
-
-I learnt React Hooks with great learning experience while making this project and also I did work a lot on CSS too..
-
 ## Author
 
 - Frontend Mentor - [@skyv26](https://www.frontendmentor.io/profile/skyv26)
