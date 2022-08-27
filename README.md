@@ -16,13 +16,6 @@
 - [React](https://reactjs.org/) - JS library
 - [Styled Components](https://styled-components.com/) - For styles
 
-## Author
-
-- Frontend Mentor - [@skyv26](https://www.frontendmentor.io/profile/skyv26)
-- Github - [Aakash Verma](https://www.github.com/skyv26)
-
-<a name="readme-top"></a>
-
 <!--
 !!! IMPORTANT !!!
 This README is an example of how you could professionally present your codebase. 
