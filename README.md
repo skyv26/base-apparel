@@ -104,15 +104,9 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
 ```
- -->
+To do this challenge, you need a basic understanding of HTML, CSS and JavaScript
+```
 
 ### Setup
 
