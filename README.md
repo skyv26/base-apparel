@@ -2,7 +2,6 @@
 ### Links
 
 - Solution URL: [Github](https://github.com/skyv26/base-apparel.git)
-- Live Site URL: [Netlify](https://mybaseapparel.netlify.app/)
 
 ## My process
 
@@ -93,7 +92,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- [Live Project](https://mybaseapparel.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
