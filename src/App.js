@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
-import ApparelHeader from './components/ApparelHeader/ApparelHeader';
-import ApparelImageContainer from './components/ApparelImageContainer/ApparelImageContainer';
-import ApparelFooter from './components/ApparelFooter/ApparelFooter';
-import styles from './App.module.css';
-import Main from './UI/Main/Main';
+import React, { Fragment } from "react";
+import ApparelHeader from "./components/ApparelHeader/ApparelHeader";
+import ApparelImageContainer from "./components/ApparelImageContainer/ApparelImageContainer";
+import ApparelFooter from "./components/ApparelFooter/ApparelFooter";
+import styles from "./App.module.css";
+import Main from "./UI/Main/Main";
 
 const App = (props) => {
   return (
@@ -16,6 +16,6 @@ const App = (props) => {
       <ApparelFooter />
     </Fragment>
   );
-}
+};
 
 export default App;
