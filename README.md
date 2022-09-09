@@ -1,13 +1,3 @@
-
-
-## My process
-
-### Built with
-
-
-- [React](https://reactjs.org/) - JS library
-- [Styled Components](https://styled-components.com/) - For styles
-
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="./src/assests/screenShot.jpg" alt="logo" width="140"  height="auto" />
