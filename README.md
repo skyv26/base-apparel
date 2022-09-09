@@ -105,6 +105,14 @@ Clone this repository to your desired folder:
 
 ```
 
+### Install
+
+Please install the `React` and dependencies libraries by using below command:
+
+```
+yarn install or npm install
+```
+
 ### Usage
 
 ```
